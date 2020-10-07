@@ -1,0 +1,62 @@
+/* 
+    Psuedo Code
+    Main
+    [] Background Image
+    [] Font
+
+    Styles
+    [] container
+    [] header-title
+    [] time-remaining
+    [] question
+    [] choices
+    [] result
+
+*/
+
+/* General */
+
+body {
+    /* Typography */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 2.5;
+    vertical-align: middle;
+    /* Visual */
+    background: url("../images/tswayBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Sansita Swashed', cursive;
+    margin-bottom: 25px;
+}
+
+/* Custom Styles */
+
+.container {
+    margin: 100px auto;
+    background-color: #fff8dc;
+    padding: 40px;
+    text-align: center;
+}
+
+.choices a:link, a:visited {
+    color: #FF1493;
+    padding: 5px;
+    display: block;
+    margin: 0 200px;
+}
+
+.choices a:hover {
+    border: 5px solid #FF1493;
+    text-decoration: none;
+    background-color: #E0FFFF;
+}

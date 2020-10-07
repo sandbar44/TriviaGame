@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift Trivia</title>
+
+    <!-- Reset CSS File -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Custom Styling -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--
+    Psuedo Code
+    === Layout ===
+    [] Background image
+    [] Container with bg color
+    [] Center header
+    [] Time remaining
+    [] Question
+    [] Multiple Choices
+    [] Result
+        [] Correct answer was: xxx
+        [] Fun image/gif
+        [] All done
+        [] Quiz summary
+        [] Start over
+
+    -->
+
+    <!-- Overall Bootstrap Grid -->
+    <div class="container">
+
+        <!-- Header Title -->
+        <div class="row">
+            <div class="col-lg-12" id="header-title">
+                <h1>Taylor Swift Trivia</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Timer -->
+                <div id="time-remaining">Time Remaining: </div>
+                <!-- Question -->
+                <div id="question">Question</div>
+                <!-- Multiple Choices -->
+                <div class="choices">
+                    <ul>
+                        <li><a href="#">Choice 1 Letters</a></li>
+                        <li><a href="#">Choice 2</a></li>
+                        <li><a href="#">Choice 3</a></li>
+                        <li><a href="#">Choice 4</a></li>
+                    </ul>
+                </div>
+                <!-- Result -->
+                <div id="result">Result</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <!-- Custom Javascript -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
