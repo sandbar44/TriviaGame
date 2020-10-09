@@ -42,20 +42,24 @@ h1 {
 /* Custom Styles */
 
 .container {
+    height: 800px;
     margin: 100px auto;
     background-color: #fff8dc;
     padding: 40px;
     text-align: center;
 }
 
-.choices a:link, a:visited {
-    color: #FF1493;
-    padding: 5px;
+button {
     display: block;
-    margin: 0 200px;
+    width: 50%;
+    margin: 5px auto;
+    color: #FF1493;
+    display: block;
+    background-color: transparent;
+    border: 0px;
 }
 
-.choices a:hover {
+button:hover {
     border: 5px solid #FF1493;
     text-decoration: none;
     background-color: #E0FFFF;
